@@ -1,0 +1,46 @@
+
+
+
+/**** CARD ******/
+.card {
+    display: flex;
+    flex-direction: row;
+    border-radius: var(--border-radius);
+    padding-inline: var(--spacing-sm);
+    padding-block: var(--spacing-sm);
+    background: var(--color-white);
+    border-radius: var(--size-border-radius-medium);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    margin-block-start: var(--spacing-sm);
+
+}
+
+.card .card_image-holder {
+    flex: 0 0 200px;
+}
+
+.card .card_image-holder > img.poster {
+    width: inherit;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+.card div.card-body {
+    display: flex;
+    flex-direction: column;
+    padding-inline: .25rem;
+    flex: 2 2 auto;
+    padding-inline: var(--spacing-sm);
+    padding-block: var(--spacing-sm);
+}
+
+.card div.card-body h3 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.card div.card-description {
+    max-width: 62ch;
+   
+}

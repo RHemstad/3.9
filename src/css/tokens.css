@@ -1,0 +1,90 @@
+:root {
+
+    /* breakponts */
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+
+
+    /* typography */
+    --font-family-body: "Roboto","Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-family-headings: "Oswald","Segoe UI","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    --font-size-desktop: 1rem;
+    --font-size-mobile: .875rem;
+
+
+    --font-size-h1: 3.5rem;
+    /*--font-size-h1: 3rem;*/
+    --font-size-h2: 2.5rem;
+    --font-size-h3: 1.5rem;
+    --font-size-h4: .889rem;
+    --font-size-h5: .889rem;
+
+    --font-size-large: 1.25rem;
+    --font-size-default: 1rem;
+    --font-size-small: .889rem;
+    --font-size-x-small: .79rem;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+
+    /* color palette */
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-primary: #000a38; /*#174396*/
+    --color-secondary: #99cc33;
+    --color-tertiary: #c0ef4d;
+    --color-neutral: #F9FAF5;
+    --color-alt1: #00145c;
+    --color-alt2: #fff89a;
+    --color-alt3: rgb(255, 204, 0);
+
+    --color-alert: red;
+
+
+    /* links */
+    --color-link-normal: var(--color-neutral);
+    --color-link-hover: var(--color-tertiary);
+    --color-link-visited: var(--color-neutral);
+    --color-link-active: var(--color-tertiary);
+
+    /* border radius */
+    --size-border-radius-full: 50%;
+    --size-border-radius-small: 1px;
+    --size-border-radius-medium: 4px;
+    --size-border-radius-large: 80px;
+
+    /* typography */
+    --color-text: #2B3138; 
+
+    /* spacing */
+    --spacing-xx-sm: .25rem;
+    --spacing-x-sm: .5rem;
+    --spacing-sm: .75rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 1.25rem;
+    --spacing-x-lg: 1.5rem;
+    --spacing-xx-lg: 1.75rem;
+    --spacing-xxx-lg: 2rem;
+
+
+    /* containers */
+    --size-container-large: 400px;
+    --size-container-xx-small: 96px;
+    --size-container-x-small: 192px;
+    --size-container-medium: 320px;
+    --size-container-x-large: 640px;
+    --size-container-small: 240px;
+  
+    
+    /* cards */
+    --size-card-large: 400px;
+    --size-card-medium: 45%;
+    --size-card-small: 100%;
+
+
+}

@@ -1,0 +1,13 @@
+/* ****************************** */
+/* ********** HEADER ************ */
+/* ****************************** */
+
+header {
+    background-color: var(--color-primary);
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    width: 100%;
+    padding-inline: var(--spacing-md);
+    flex: 0 0 auto; /*flex-grow, flex-shrink, flex-basis aka max, min, ideal size */
+    margin-block-end: var(--spacing-sm);
+  }
+  
